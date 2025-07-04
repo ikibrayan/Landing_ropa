@@ -12,26 +12,27 @@
 <body>
 
 <header>
-  <h1 class="titulo-principal">Bienvenido a RappiBurguer</h1>
-  <p class="subtitulo">Realiza tu pedido de manera rápida y sencilla</p>
+  <h1 class="titulo-principal">Bienvenido a StylePoint</h1>
+  <p class="subtitulo">Encuentra tu estilo y tu marca propia</p>
 </header>
   
 
 <section id="menu">
-  <h2>Menú</h2>
+  <h2>Catálogo</h2>
   
   <div style="display: flex; flex-direction: column; margin-bottom: 15px; max-width: 300px;">
     <label for="categoriaSelect" style="font-weight: bold; margin-bottom: 5px;">Elegir categoría:</label>
     <select id="categoriaSelect" style="text-align: left;">
-        <option value="hamburguesa">Hamburguesas</option>
-        <option value="pizza">Pizzas</option>
-        <option value="taco">Tacos</option>
-        <option value="burrito">Burritos</option>
+        <option value="camisa">Camisas</option>
+        <option value="pantalon">Pantalones</option>
+        <option value="chaqueta">Chaquetas</option>
+        <option value="zapato">Zapatos</option>
     </select>
   </div>
   
-  <div id="productos"></div>
+  <div id="productos" class="grid-productos"></div>
 </section>
+
 
 <section class="carrito">
   <h2>Total: $<span id="total">0</span></h2>

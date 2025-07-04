@@ -62,7 +62,7 @@
 .cantidad-control button {
 padding: 5px 12px;
 font-size: 16px;
-background: #D97B48;         /* Terracota estilo mediterráneo */
+background: black;         /* Terracota estilo mediterráneo */
 color: white;
 border: none;
 border-radius: 6px;
@@ -71,7 +71,8 @@ transition: background 0.3s ease;
 }
 
 .cantidad-control button:hover {
-background: #b05f36;         /* Más oscuro al pasar el mouse */
+background: white;    
+color: black;     /* Más oscuro al pasar el mouse */
 }
   
 
@@ -87,7 +88,7 @@ background: #b05f36;         /* Más oscuro al pasar el mouse */
 }
 
 button.enviar {
-  background:#D97B48;
+  background:black;
   font-size: 18px;
   padding: 12px 24px;
   border: none;
@@ -120,3 +121,33 @@ button.enviar {
   }
 }
 
+
+/* Rejilla de productos para ropa */
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+
+/* Ajuste visual tipo tarjeta */
+.grid-productos .producto {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.grid-productos .producto-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.grid-productos .producto-info {
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Responsive ya lo cubres con media query previa */

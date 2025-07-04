@@ -1,97 +1,101 @@
 const productos = [
+  // CAMISAS
   {
-    categoria: 'hamburguesa',
-    nombre: '🍔 Hamburguesa de Res',
-    precio: 15000,
-    descripcion: 'Jugosa hamburguesa con carne de res y vegetales frescos.',
-    detalle: 'Incluye pan artesanal, pepinillos, tomate, cebolla caramelizada y nuestra salsa especial de la casa.',
-    imagen: 'img/burguer.webp'
+    categoria: 'camisa',
+    nombre: '👕 Camisa Casual Blanca',
+    precio: 45000,
+    descripcion: 'Camisa blanca de algodón perfecta para uso diario.',
+    detalle: 'Material: 100% algodón. Corte regular. Botones frontales.',
+    imagen: 'img/camisa-blanca.webp'
   },
   {
-    categoria: 'hamburguesa',
-    nombre: '🍔 Hamburguesa de Pollo',
-    precio: 19000,
-    descripcion: 'Deliciosa hamburguesa de pollo empanizado con lechuga.',
-    imagen: 'img/burguer-pollo.webp'
+    categoria: 'camisa',
+    nombre: '👔 Camisa Formal Azul',
+    precio: 58000,
+    descripcion: 'Camisa formal azul cielo, ideal para oficina.',
+    detalle: 'Material: mezcla algodón-poliéster. Entalle slim.',
+    imagen: 'img/camisa-azul.webp'
   },
   {
-    categoria: 'hamburguesa',
-    nombre: '🍔 Hamburguesa de Queso',
-    precio: 14000,
-    descripcion: 'Deliciosa hamburguesa de queso con lechuga.',
-    imagen: 'img/burguer-cheese.webp'
+    categoria: 'camisa',
+    nombre: '👕 Camiseta Oversize Negra',
+    precio: 38000,
+    descripcion: 'Camiseta urbana estilo oversize, negra básica.',
+    detalle: 'Algodón suave. Cuello redondo. Estilo urbano relajado.',
+    imagen: 'img/camiseta-negra.webp'
+  },
+
+  // PANTALONES
+  {
+    categoria: 'pantalon',
+    nombre: '👖 Jean Clásico Azul',
+    precio: 75000,
+    descripcion: 'Jean clásico azul de mezclilla resistente.',
+    detalle: 'Corte recto. Tiro medio. Lavado medio.',
+    imagen: 'img/jean-azul.webp'
   },
   {
-    categoria: 'hamburguesa',
-    nombre: '🍔 Hamburguesa de Queso y Tocino',
-    precio: 25000,
-    descripcion: 'Deliciosa hamburguesa de queso con Tocino.',
-    imagen: 'img/burguer-tocino.webp'
+    categoria: 'pantalon',
+    nombre: '👖 Pantalón Chino Beige',
+    precio: 69000,
+    descripcion: 'Chino beige elegante, ideal para ocasiones semi-formales.',
+    detalle: 'Tela suave. Corte slim. Bolsillos laterales.',
+    imagen: 'img/chino-beige.webp'
   },
   {
-    categoria: 'pizza',
-    nombre: '🍕 Pizza Pepperoni',
-    precio: 25000,
-    descripcion: 'Pizza con pepperoni y queso mozzarella fundido.',
-    imagen: 'img/pizza.webp'
+    categoria: 'pantalon',
+    nombre: '👖 Jogger Deportivo Gris',
+    precio: 52000,
+    descripcion: 'Jogger gris con puños elásticos y cintura ajustable.',
+    detalle: 'Tela stretch. Bolsillos laterales con cremallera.',
+    imagen: 'img/jogger-gris.webp'
+  },
+
+  // CHAQUETAS
+  {
+    categoria: 'chaqueta',
+    nombre: '🧥 Chaqueta de Cuero Negra',
+    precio: 120000,
+    descripcion: 'Chaqueta negra sintética tipo biker.',
+    detalle: 'Interior forrado. Cremalleras metálicas. Estilo urbano.',
+    imagen: 'img/chaqueta-cuero.webp'
   },
   {
-    categoria: 'pizza',
-    nombre: '🍕 Pizza Vegetariana',
-    precio: 32000,
-    descripcion: 'Pizza vegetariana con extra queso y salsa bbq.',
-    imagen: 'img/pizza-vegana.webp'
+    categoria: 'chaqueta',
+    nombre: '🧥 Chaqueta Jeans Oversize',
+    precio: 98000,
+    descripcion: 'Chaqueta de mezclilla azul estilo vintage.',
+    detalle: 'Corte amplio. Cuello clásico. Bolsillos frontales.',
+    imagen: 'img/chaqueta-jeans.webp'
+  },
+
+  // ZAPATOS
+  {
+    categoria: 'zapato',
+    nombre: '👟 Zapatillas Blancas Urbanas',
+    precio: 87000,
+    descripcion: 'Zapatillas blancas de cuero sintético.',
+    detalle: 'Suelas antideslizantes. Diseño minimalista.',
+    imagen: 'img/zapatillas-blancas.webp'
   },
   {
-    categoria: 'pizza',
-    nombre: '🍕 Pizza de Pollo',
-    precio: 24500,
-    descripcion: 'Pizza de pollo con champiñones y salsa de tomate.',
-    imagen: 'img/pizza-chicken.webp'
+    categoria: 'zapato',
+    nombre: '👞 Zapatos de Vestir Marrón',
+    precio: 110000,
+    descripcion: 'Zapatos clásicos de cuero marrón.',
+    detalle: 'Plantilla acolchada. Diseño elegante. Cierre con cordones.',
+    imagen: 'img/zapatos-marron.webp'
   },
   {
-    categoria: 'pizza',
-    nombre: '🍕 Pizza Margarita',
-    precio: 23000,
-    descripcion: 'Pizza clásica con tomate, albahaca y queso.',
-    imagen: 'img/pizza-margarita.webp'
-  },
-  {
-    categoria: 'taco',
-    nombre: '🌮 Tacos de Res (3 und)',
-    precio: 18000,
-    descripcion: 'Tres tacos de res con guacamole y pico de gallo.',
-    imagen: 'img/tacos.webp'
-  },
-  {
-    categoria: 'taco',
-    nombre: '🌮 Tacos al Pastor (3 und)',
-    precio: 26000,
-    descripcion: 'Tres tacos al pastor con guacamole y cebolla.',
-    imagen: 'img/tacos-alpastore.webp'
-  },
-  {
-    categoria: 'taco',
-    nombre: '🌮 Tacos Tropicales (3 und)',
-    precio: 32000,
-    descripcion: 'Tres tacos tropicales con piña y lechuga.',
-    imagen: 'img/tacos-tropic.webp'
-  },
-  {
-    categoria: 'burrito',
-    nombre: '🌯 Burrito de Pollo',
-    precio: 20000,
-    descripcion: 'Burrito relleno de pollo, arroz, frijoles y queso.',
-    imagen: 'img/burrito.webp'
-  },
-  {
-    categoria: 'burrito',
-    nombre: '🌯 Burrito de Carne',
-    precio: 28000,
-    descripcion: 'Burrito relleno de carne, arroz, frijoles y queso.',
-    imagen: 'img/burrito-meat.webp'
+    categoria: 'zapato',
+    nombre: '🥾 Botas Casual Beige',
+    precio: 135000,
+    descripcion: 'Botas resistentes beige para uso diario o trabajo.',
+    detalle: 'Suela gruesa. Cordones metálicos. Interior térmico.',
+    imagen: 'img/botas-beige.webp'
   }
 ];
+
 
 const carrito = {};
 let categoriaActual = '';
@@ -191,7 +195,7 @@ const categoriaGuardada = sessionStorage.getItem("categoriaActual");
 if (categoriaGuardada) {
   categoriaActual = categoriaGuardada;
 } else {
-  categoriaActual = 'hamburguesa';
+  categoriaActual = 'camisa';
 }
 
 document.getElementById('categoriaSelect').value = categoriaActual;
