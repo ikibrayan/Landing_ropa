@@ -1,0 +1,122 @@
+.selector-categorias,
+#categoriaSelect {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Productos */
+.producto {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.producto-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.producto-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.producto-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.producto-info p {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.precio {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.cantidad-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.cantidad-control button {
+padding: 5px 12px;
+font-size: 16px;
+background: #D97B48;         /* Terracota estilo mediterráneo */
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+.cantidad-control button:hover {
+background: #b05f36;         /* Más oscuro al pasar el mouse */
+}
+  
+
+/* Carrito */
+.carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+button.enviar {
+  background:#D97B48;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .producto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .producto-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .producto-info {
+    width: 100%;
+    min-width: unset;
+    padding-top: 10px;
+  }
+
+  .cantidad-control {
+    justify-content: center;
+  }
+}
+
