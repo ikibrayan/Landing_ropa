@@ -2,29 +2,52 @@ const productos = [
   // CAMISAS
   {
     categoria: 'camisa',
-    nombre: '👕 Camisa Casual Blanca',
+    nombre: '👕 Camisa Blanca Para Mujer',
     precio: 45000,
     descripcion: 'Camisa blanca de algodón perfecta para uso diario.',
     detalle: 'Material: 100% algodón. Corte regular. Botones frontales.',
-    imagen: 'img/camisa-blanca.webp'
+    imagen: 'img/blanca_mujer.webp'
   },
   {
     categoria: 'camisa',
-    nombre: '👔 Camisa Formal Azul',
+    nombre: '👔 Camisa Negra',
     precio: 58000,
-    descripcion: 'Camisa formal azul cielo, ideal para oficina.',
+    descripcion: 'Camisa negra cielo, ideal para oficina.',
     detalle: 'Material: mezcla algodón-poliéster. Entalle slim.',
-    imagen: 'img/camisa-azul.webp'
+    imagen: 'img/camisa_negra_mujer.webp'
   },
   {
     categoria: 'camisa',
-    nombre: '👕 Camiseta Oversize Negra',
+    nombre: '👕 Camiseta Oversize',
     precio: 38000,
     descripcion: 'Camiseta urbana estilo oversize, negra básica.',
     detalle: 'Algodón suave. Cuello redondo. Estilo urbano relajado.',
-    imagen: 'img/camiseta-negra.webp'
+    imagen: 'img/corona_hombre.webp'
   },
-
+  {
+  categoria: 'camisa',
+  nombre: '👕 Camiseta Naranja Mujer',
+  precio: 38000,
+  descripcion: 'Camiseta urbana estilo oversize, Naranja básica.',
+  detalle: 'Algodón suave. Cuello redondo. Estilo urbano relajado.',
+  imagen: 'img/naranja_mujer.webp'
+  },
+  {
+  categoria: 'camisa',
+  nombre: '👕 Camiseta Naranja Hombre',
+  precio: 38000,
+  descripcion: 'Camiseta urbana estilo oversize, Naranja básica.',
+  detalle: 'Algodón suave. Cuello redondo. Estilo urbano relajado.',
+  imagen: 'img/naranja_hombre.webp'
+  },
+  {
+  categoria: 'camisa',
+  nombre: '👕 Camiseta Verde Hombre',
+  precio: 38000,
+  descripcion: 'Camiseta urbana estilo oversize, Verde básica.',
+  detalle: 'Algodón suave. Cuello redondo. Estilo urbano relajado.',
+  imagen: 'img/verde_hombre.webp'
+  },
   // PANTALONES
   {
     categoria: 'pantalon',
@@ -32,7 +55,7 @@ const productos = [
     precio: 75000,
     descripcion: 'Jean clásico azul de mezclilla resistente.',
     detalle: 'Corte recto. Tiro medio. Lavado medio.',
-    imagen: 'img/jean-azul.webp'
+    imagen: 'img/jean_claro.webp'
   },
   {
     categoria: 'pantalon',
@@ -40,7 +63,7 @@ const productos = [
     precio: 69000,
     descripcion: 'Chino beige elegante, ideal para ocasiones semi-formales.',
     detalle: 'Tela suave. Corte slim. Bolsillos laterales.',
-    imagen: 'img/chino-beige.webp'
+    imagen: 'img/jean_mujer.webp'
   },
   {
     categoria: 'pantalon',
@@ -48,7 +71,7 @@ const productos = [
     precio: 52000,
     descripcion: 'Jogger gris con puños elásticos y cintura ajustable.',
     detalle: 'Tela stretch. Bolsillos laterales con cremallera.',
-    imagen: 'img/jogger-gris.webp'
+    imagen: 'img/jean_skiny.webp'
   },
 
   // CHAQUETAS
@@ -58,7 +81,7 @@ const productos = [
     precio: 120000,
     descripcion: 'Chaqueta negra sintética tipo biker.',
     detalle: 'Interior forrado. Cremalleras metálicas. Estilo urbano.',
-    imagen: 'img/chaqueta-cuero.webp'
+    imagen: 'img/chaqueta_cuero.webp'
   },
   {
     categoria: 'chaqueta',
@@ -66,17 +89,16 @@ const productos = [
     precio: 98000,
     descripcion: 'Chaqueta de mezclilla azul estilo vintage.',
     detalle: 'Corte amplio. Cuello clásico. Bolsillos frontales.',
-    imagen: 'img/chaqueta-jeans.webp'
+    imagen: 'img/chaqueta_cuadros.webp'
   },
-
   // ZAPATOS
   {
     categoria: 'zapato',
-    nombre: '👟 Zapatillas Blancas Urbanas',
+    nombre: '👟 Zapatillas Gris Urbanas',
     precio: 87000,
     descripcion: 'Zapatillas blancas de cuero sintético.',
     detalle: 'Suelas antideslizantes. Diseño minimalista.',
-    imagen: 'img/zapatillas-blancas.webp'
+    imagen: 'img/zapatos_gris.webp'
   },
   {
     categoria: 'zapato',
@@ -84,15 +106,23 @@ const productos = [
     precio: 110000,
     descripcion: 'Zapatos clásicos de cuero marrón.',
     detalle: 'Plantilla acolchada. Diseño elegante. Cierre con cordones.',
-    imagen: 'img/zapatos-marron.webp'
+    imagen: 'img/zapatos_cuero.webp'
   },
   {
     categoria: 'zapato',
-    nombre: '🥾 Botas Casual Beige',
+    nombre: '🥾 Botas Casual Azul',
     precio: 135000,
-    descripcion: 'Botas resistentes beige para uso diario o trabajo.',
+    descripcion: 'Zapatillas azules de cuero sintético.',
     detalle: 'Suela gruesa. Cordones metálicos. Interior térmico.',
-    imagen: 'img/botas-beige.webp'
+    imagen: 'img/zapatos_azul.webp'
+  },
+  {
+    categoria: 'zapato',
+    nombre: '🥾  Tacones Rojos',
+    precio: 135000,
+    descripcion: 'Tacones resistentes rojos para uso diario o trabajo.',
+    detalle: 'Suela gruesa. Cordones metálicos. Interior térmico.',
+    imagen: 'img/tacones_rojos.webp'
   }
 ];
 
